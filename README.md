@@ -17,27 +17,6 @@ Prophet and SARIMAX are not used. With under two years of history they cannot se
 
 ## Requirements
 
-**Python 3.9-3.12**
-
-```text
-pandas>=1.5
-numpy>=1.23
-scipy>=1.9
-statsmodels>=0.14
-plotly>=5.15
-matplotlib>=3.6
-openpyxl>=3.1
-tabulate>=0.9
-```
-
-```bash
-pip install -r requirements.txt
-```
-
-Run it in Jupyter, Colab or VS Code. `fig.show()` needs a notebook or a browser.
-
-### Input files
-
 | File | Level | Columns |
 |---|---|---|
 | Daily clicks | Date, non-brand, one site section | `date`, `clicks` |
